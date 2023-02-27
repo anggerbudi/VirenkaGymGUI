@@ -19,7 +19,7 @@ class VirenkaGym:
         self.master = master
         master.title("Form Pendaftaran Virenka Gym")
         master.resizable(False, False)
-        #master.geometry("1280x720")
+        master.geometry("1280x720")
 
         # set background image
         my_image = ctk.CTkImage(light_image=Image.open("12066157_4883941.jpg"),
