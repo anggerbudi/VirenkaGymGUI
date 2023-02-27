@@ -6,10 +6,10 @@
 
 # Mengimport library
 import tkinter as tk
-#import customtkinter as ctk
+import customtkinter as ctk
 from tkcalendar import DateEntry
 from tkinter import messagebox
-#from PIL import Image
+from PIL import Image
 import openpyxl
 import os.path
 from openpyxl import Workbook
@@ -22,10 +22,10 @@ class VirenkaGym:
         #master.geometry("1280x720")
 
         # set background image
-        #my_image = ctk.CTkImage(light_image=Image.open("C:/Users/Angger/Desktop/gym-girl-model-exercise.png"),
-        #                        size=(1280, 720))
-        #background = ctk.CTkLabel(self.master, image=my_image, text="")
-        #background.place(x=0, y=0, relwidth=1, relheight=1)
+        my_image = ctk.CTkImage(light_image=Image.open("12066157_4883941.jpg"),
+                                size=(1280, 720))
+        background = ctk.CTkLabel(self.master, image=my_image, text="")
+        background.place(x=0, y=0, relwidth=1, relheight=1)
 
         # Label dan entry
         self.nama_label = tk.Label(self.master, text="Nama:")
